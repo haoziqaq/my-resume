@@ -37,10 +37,7 @@ function handleGithub() {
               <div class="resume-app-bar-name">齐皓</div>
               <div class="resume-app-bar-job">前端开发工程师</div>
               <div class="resume-app-bar-description">
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
-                介绍一下你自己，真诚一点，不要过分谦虚，也不要张狂。
+                7 年前端开发经验，对技术有热情，写代码有洁癖，为人和善，很好相处！能够⾼效的完成开发任务，有带前端技术团队的经验。能够搭建完善的前端⼯具链和工作流。积极拥抱开源，有⾃⼰持续维护的开源项⽬，有在技术社区写作的习惯。
               </div>
             </var-col>
           </var-row>
@@ -65,7 +62,7 @@ function handleGithub() {
 
   &-name {
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 6px;
     font-weight: bold;
   }
 

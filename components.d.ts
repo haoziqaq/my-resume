@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    copy: typeof import('./src/components/ResumeBlockSmallItem.vue')['default']
     IconAccountGroup: typeof import('./src/components/icons/iconAccountGroup.vue')['default']
     IconCake: typeof import('./src/components/icons/IconCake.vue')['default']
     IconCalendar: typeof import('./src/components/icons/IconCalendar.vue')['default']
@@ -22,6 +23,7 @@ declare module '@vue/runtime-core' {
     ResumeAppBar: typeof import('./src/components/ResumeAppBar.vue')['default']
     ResumeBlank: typeof import('./src/components/ResumeBlank.vue')['default']
     ResumeBlock: typeof import('./src/components/ResumeBlock.vue')['default']
+    ResumeBlockCompactItem: typeof import('./src/components/ResumeBlockCompactItem.vue')['default']
     ResumeBlockItem: typeof import('./src/components/ResumeBlockItem.vue')['default']
     ResumeFill: typeof import('./src/components/ResumeFill.vue')['default']
     ResumeProfile: typeof import('./src/components/ResumeProfile.vue')['default']
@@ -33,6 +35,8 @@ declare module '@vue/runtime-core' {
     VarCell: typeof import('@varlet/ui')['_CellComponent']
     VarCol: typeof import('@varlet/ui')['_ColComponent']
     VarIcon: typeof import('@varlet/ui')['_IconComponent']
+    VarImage: typeof import('@varlet/ui')['_ImageComponent']
+    VarLink: typeof import('@varlet/ui')['_LinkComponent']
     VarPaper: typeof import('@varlet/ui')['_PaperComponent']
     VarProgress: typeof import('@varlet/ui')['_ProgressComponent']
     VarRow: typeof import('@varlet/ui')['_RowComponent']

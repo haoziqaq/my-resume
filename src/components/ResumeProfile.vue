@@ -6,19 +6,19 @@
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-cake class="resume-profile-icon" />
-              <span>出生日期: 90后已然成为老人家了</span>
+              <span>出生日期: 1996年08月22日</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-school class="resume-profile-icon" />
-              <span>学校: 野鸡大学也得写上</span>
+              <span>学校: 四川大学锦江学院（计算机应用技术）</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-calendar class="resume-profile-icon" />
-              <span>工作年限: 今年这行情多少年都没用</span>
+              <span>工作年限: 7年</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
@@ -30,13 +30,13 @@
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-cash class="resume-profile-icon" />
-              <span>期望薪资: 1k</span>
+              <span>期望薪资: 面议</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0">
             <div class="resume-profile-cell">
               <icon-city class="resume-profile-icon" />
-              <span>期望城市: 我选择缩在江苏无锡</span>
+              <span>期望城市: 江苏无锡</span>
             </div>
           </var-cell>
         </var-paper>
@@ -47,37 +47,47 @@
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-phone class="resume-profile-icon" />
-              <span>手机: 千万别写错了！！！</span>
+              <span>手机: 18980433852</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-email class="resume-profile-icon" />
-              <span>邮箱: 听说QQ邮箱会让人看不起</span>
+              <span>邮箱: 357229046@qq.com</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-tencent class="resume-profile-icon" />
-              <span>QQ: 年轻人喜欢用QQ?</span>
+              <span>QQ: 357229046</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-wechat class="resume-profile-icon" />
-              <span>微信: 老年人喜欢用微信?</span>
+              <span>微信: qh357229046</span>
             </div>
           </var-cell>
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-post class="resume-profile-icon" />
-              <span>掘金: 有出彩的文章可以贴上</span>
+              <span>
+                掘金:
+                <var-link type="primary" href="https://juejin.cn/user/1046390801697319" style="font-size: 12px">
+                  https://juejin.cn/user/1046390801697319
+                </var-link>
+              </span>
             </div>
           </var-cell>
           <var-cell :border-offset="0">
             <div class="resume-profile-cell">
               <icon-github class="resume-profile-icon" />
-              <span>Github: 经常参与开源贡献会加分的</span>
+              <span>
+                Github:
+                <var-link type="primary" href="https://github.com/haoziqaq" style="font-size: 12px">
+                  https://github.com/haoziqaq
+                </var-link>
+              </span>
             </div>
           </var-cell>
         </var-paper>
@@ -103,7 +113,7 @@
   &-icon {
     width: 22px;
     margin-right: 10px;
-    fill: var(--color-primary)
+    fill: var(--color-primary);
   }
 }
 </style>

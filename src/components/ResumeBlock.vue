@@ -61,4 +61,8 @@ defineProps({
 .resume-block .resume-block-item:last-child {
   border-bottom: none;
 }
+
+.resume-block .resume-block-compact-item:last-child {
+  border-bottom: none;
+}
 </style>
