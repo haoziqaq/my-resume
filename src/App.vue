@@ -77,7 +77,7 @@
           </div>
         </template>
       </resume-block-item>
-      <resume-block-item title="antfu/unplugin-vue-components (仓库贡献者)">
+      <resume-block-item title="alibaba/lowcode-engine (仓库贡献者)">
         <template #description>
           <div class="resume-layout-stars">stars: 10600</div>
           <div class="resume-layout-description">
