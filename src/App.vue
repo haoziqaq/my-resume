@@ -17,7 +17,7 @@
 
     <resume-block title="项目经历" subtitle="**只列举部分典型项目**">
       <resume-block-item
-        title="星芒低代码SaaS平台"
+        title="星芒低代码 SaaS 平台"
         description="一个为了提高应用落地效率的低代码平台，对标宜搭、用友。主要技术栈是 Typescript、Vue3、React、React Native。在项目中主要负责低代码设计器、可视化编程设计器的迭代，实现通过拖拉拽设计应用，通过卡片编排完成事件处理函数的编写。另外负责设计和迭代低代码物料和模板等资产。"
       />
       <resume-block-item
